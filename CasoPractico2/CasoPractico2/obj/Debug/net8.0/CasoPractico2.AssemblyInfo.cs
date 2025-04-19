@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CasoPractico2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e447850cca3c4e68b865dc886f956cf4e9b4b377")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dda7132f5dacb5d55bc5a94088df15562d0699d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CasoPractico2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CasoPractico2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

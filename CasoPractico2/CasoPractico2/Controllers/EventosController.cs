@@ -50,25 +50,31 @@ namespace CasoPractico2.Controllers
         public IActionResult Create()
         {
             ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nombre");
-            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id");
             return View();
         }
 
         // POST: Eventos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Titulo,Descripcion,CategoriaId,Fecha,Hora,DuracionMinutos,Ubicacion,CupoMaximo,FechaRegistro,UsuarioId")] Evento evento)
+        public async Task<IActionResult> Create([Bind("Id,Titulo,Descripcion,CategoriaId,Fecha,Hora,DuracionMinutos,Ubicacion,CupoMaximo,FechaRegistro")] Evento evento)
         {
+            string userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized();
+            }
+
+            evento.UsuarioId = userId;
+
             if (ModelState.IsValid)
             {
                 _context.Add(evento);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nombre", evento.CategoriaId);
-            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", evento.UsuarioId);
             return View(evento);
         }
 
@@ -85,14 +91,13 @@ namespace CasoPractico2.Controllers
             {
                 return NotFound();
             }
+
             ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nombre", evento.CategoriaId);
             ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", evento.UsuarioId);
             return View(evento);
         }
 
         // POST: Eventos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Titulo,Descripcion,CategoriaId,Fecha,Hora,DuracionMinutos,Ubicacion,CupoMaximo,FechaRegistro,UsuarioId")] Evento evento)

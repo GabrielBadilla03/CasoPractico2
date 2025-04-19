@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\categorias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\categorias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -338,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Categorias\\Create.cshtml",
               "RelativeDocumentMoniker": "CasoPractico2\\Views\\Categorias\\Create.cshtml",
@@ -346,12 +346,11 @@
               "RelativeToolTip": "CasoPractico2\\Views\\Categorias\\Create.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T22:30:09.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T22:30:09.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Categorias\\Delete.cshtml",
               "RelativeDocumentMoniker": "CasoPractico2\\Views\\Categorias\\Delete.cshtml",
@@ -359,12 +358,11 @@
               "RelativeToolTip": "CasoPractico2\\Views\\Categorias\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T22:30:08.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T22:30:08.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CategoriasController.cs",
               "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\CategoriasController.cs",
               "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\CategoriasController.cs",
@@ -372,8 +370,7 @@
               "RelativeToolTip": "CasoPractico2\\Controllers\\CategoriasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:49:16.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T00:49:16.783Z"
             },
             {
               "$type": "Document",
@@ -389,15 +386,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "EventosController.cs",
               "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\EventosController.cs",
               "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\EventosController.cs",
               "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\EventosController.cs",
               "RelativeToolTip": "CasoPractico2\\Controllers\\EventosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:49:55.072Z"
+              "WhenOpened": "2025-04-16T00:49:55.072Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -419,10 +417,14 @@
               "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Create.cshtml",
               "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Create.cshtml",
               "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Create.cshtml",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAADQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-16T01:16:11.082Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -450,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Evento.cs",
               "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Evento.cs",
               "RelativeDocumentMoniker": "CasoPractico2\\Models\\Evento.cs",
@@ -458,8 +460,7 @@
               "RelativeToolTip": "CasoPractico2\\Models\\Evento.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAuwB8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:19:32.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T01:19:32.561Z"
             },
             {
               "$type": "Document",
@@ -604,10 +605,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T00:38:58.443Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         },
