@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//prueba
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -47,5 +47,44 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
+
+app.MapGet("/api/events", async (ApplicationDbContext db) =>
+{
+    var eventos = await db.Eventos
+        .Select(e => new
+        {
+            e.Titulo,
+            e.Descripcion,
+            Categoria = e.Categoria != null ? e.Categoria.Nombre : null,
+            e.Fecha,
+            e.DuracionMinutos,
+            e.Ubicacion,
+            e.CupoMaximo
+        })
+        .ToListAsync();
+
+    return Results.Ok(eventos);
+});
+
+app.MapGet("/api/events/{id:int}", async (int id, ApplicationDbContext db) =>
+{
+    var evento = await db.Eventos
+        .Where(e => e.Id == id)
+        .Select(e => new
+        {
+            e.Id,
+            e.Titulo,
+            e.Descripcion,
+            Categoria = e.Categoria != null ? e.Categoria.Nombre : null,
+            e.Fecha,
+            e.DuracionMinutos,
+            e.Ubicacion,
+            e.CupoMaximo,
+            e.FechaRegistro
+        })
+        .FirstOrDefaultAsync();
+
+    return evento != null ? Results.Ok(evento) : Results.NotFound();
+});
 
 app.Run();
