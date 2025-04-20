@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Dashboard Administrador";
+    var eventosPopulares = ViewBag.TopEventos as List<CasoPractico2.Models.Evento>;
+}
+
+<h1>Dashboard del Administrador</h1>
+
+<div class="row mb-4">
+    <div class="col-md-4">
+        <div class="card bg-light p-3">
+            <h5>Total de Eventos</h5>
+            <p class="display-6">@ViewBag.TotalEventos</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card bg-light p-3">
+            <h5>Total de Usuarios</h5>
+            <p class="display-6">@ViewBag.TotalUsuarios</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card bg-light p-3">
+            <h5>Asistentes este Mes</h5>
+            <p class="display-6">@ViewBag.AsistentesMesActual</p>
+        </div>
+    </div>
+</div>
+
+<h3>Top 5 Eventos Populares</h3>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Asistentes</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (eventosPopulares != null)
+        {
+            foreach (var evento in eventosPopulares)
+            {
+                <tr>
+                    <td>@evento.Titulo</td>
+                    <td>@(evento.Inscripciones != null ? evento.Inscripciones.Count : 0)</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr><td colspan="2">No hay datos disponibles.</td></tr>
+        }
+    </tbody>
+</table>
