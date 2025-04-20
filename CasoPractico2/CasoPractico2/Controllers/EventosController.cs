@@ -56,7 +56,16 @@ namespace CasoPractico2.Controllers
         // POST: Eventos/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Titulo,Descripcion,CategoriaId,Fecha,Hora,DuracionMinutos,Ubicacion,CupoMaximo,FechaRegistro")] Evento evento)
+        public async Task<IActionResult> Create(
+            int Id,
+            string Titulo,
+            string Descripcion,
+            int CategoriaId,
+            DateTime Fecha,
+            TimeSpan Hora,
+            int DuracionMinutos,
+            string Ubicacion,
+            int CupoMaximo)
         {
             string userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
 
@@ -65,7 +74,19 @@ namespace CasoPractico2.Controllers
                 return Unauthorized();
             }
 
-            evento.UsuarioId = userId;
+            var evento = new Evento
+            {
+                Id = Id,
+                Titulo = Titulo,
+                Descripcion = Descripcion,
+                CategoriaId = CategoriaId,
+                Fecha = Fecha,
+                DuracionMinutos = DuracionMinutos,
+                Ubicacion = Ubicacion,
+                CupoMaximo = CupoMaximo,
+                FechaRegistro = DateTime.Now,
+                UsuarioId = userId
+            };
 
             if (ModelState.IsValid)
             {
@@ -77,6 +98,7 @@ namespace CasoPractico2.Controllers
             ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nombre", evento.CategoriaId);
             return View(evento);
         }
+
 
         // GET: Eventos/Edit/5
         public async Task<IActionResult> Edit(int? id)
