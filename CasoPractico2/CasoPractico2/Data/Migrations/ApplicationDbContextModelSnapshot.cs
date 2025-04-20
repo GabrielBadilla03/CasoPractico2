@@ -82,9 +82,6 @@ namespace CasoPractico2.Data.Migrations
                     b.Property<DateTime>("FechaRegistro")
                         .HasColumnType("datetime2");
 
-                    b.Property<TimeSpan>("Hora")
-                        .HasColumnType("time");
-
                     b.Property<string>("Titulo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -339,7 +336,7 @@ namespace CasoPractico2.Data.Migrations
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "Usuario")
                         .WithMany()
                         .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Usuario");
@@ -356,7 +353,7 @@ namespace CasoPractico2.Data.Migrations
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "Usuario")
                         .WithMany()
                         .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Categoria");
@@ -375,7 +372,7 @@ namespace CasoPractico2.Data.Migrations
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "Usuario")
                         .WithMany()
                         .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Evento");

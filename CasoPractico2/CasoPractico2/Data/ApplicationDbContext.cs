@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 
 namespace CasoPractico2.Data
 {
@@ -23,19 +24,19 @@ namespace CasoPractico2.Data
                 .HasOne(c => c.Usuario)
                 .WithMany()
                 .HasForeignKey(c => c.UsuarioId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Cascade); 
 
             builder.Entity<Evento>()
                 .HasOne(e => e.Usuario)
                 .WithMany()
                 .HasForeignKey(e => e.UsuarioId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Cascade); 
 
             builder.Entity<Inscripcion>()
                 .HasOne(i => i.Usuario)
                 .WithMany()
                 .HasForeignKey(i => i.UsuarioId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Cascade); 
 
             builder.Entity<Inscripcion>()
                 .HasOne(i => i.Evento)
@@ -45,3 +46,10 @@ namespace CasoPractico2.Data
         }
     }
 }
+
+
+/*INSERT INTO AspNetRoles (Id, Name, NormalizedName, ConcurrencyStamp)
+VALUES 
+    (CONVERT(nvarchar(36), NEWID()), 'Administrador', 'ADMINISTRADOR', CONVERT(nvarchar(36), NEWID())),
+    (CONVERT(nvarchar(36), NEWID()), 'Organizador', 'ORGANIZADOR', CONVERT(nvarchar(36), NEWID())),
+    (CONVERT(nvarchar(36), NEWID()), 'Usuario', 'USUARIO', CONVERT(nvarchar(36), NEWID()));*/
