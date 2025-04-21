@@ -1,85 +1,149 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\data\\migrations\\20250421014216_seedroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\migrations\\20250421014216_seedroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\views\\eventos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\views\\eventos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\data\\migrations\\20250416011405_modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\migrations\\20250416011405_modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\noemailsender\\noemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\noemailsender\\noemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421013311_SeedRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CasoPractico2\\Data\\Migrations\\20250421013311_SeedRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421011848_SeedRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CasoPractico2\\Data\\Migrations\\20250421011848_SeedRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421011711_SeedRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CasoPractico2\\Data\\Migrations\\20250421011711_SeedRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421011502_SeedRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CasoPractico2\\Data\\Migrations\\20250421011502_SeedRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421010324_SeedRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CasoPractico2\\Data\\Migrations\\20250421010324_SeedRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421010119_SeedRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CasoPractico2\\Data\\Migrations\\20250421010119_SeedRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\models\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\models\\usuarionombredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\usuarionombredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\models\\usuarioeditmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\usuarioeditmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\views\\eventos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\views\\eventos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\data\\migrations\\20250416011405_modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\migrations\\20250416011405_modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\noemailsender\\noemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\noemailsender\\noemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\user\\onedrive\\documentos\\github\\proyectomk\\casopractico2\\casopractico2\\casopractico2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -90,15 +154,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 214,
-          "SelectedChildIndex": 65,
+          "SelectedChildIndex": 73,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d562c6a0-d2fe-4c19-a8b3-e5cbc09bf375}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5c82a791-7c9f-441e-952b-8848655dd85e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5e929736-0e81-4d52-a78e-546a1649faca}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
@@ -107,14 +203,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -298,138 +386,79 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d562c6a0-d2fe-4c19-a8b3-e5cbc09bf375}"
+              "Name": "ST:20:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{5c82a791-7c9f-441e-952b-8848655dd85e}"
+              "Name": "ST:21:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{5e929736-0e81-4d52-a78e-546a1649faca}"
+              "Name": "ST:22:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}"
+              "Name": "ST:23:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+              "Name": "ST:24:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250416011405_Modelos.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
-              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAQwFIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:14:05.483Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "CasoPractico2\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:49:16.783Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Index.cshtml",
-              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Index.cshtml",
-              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T01:16:33.927Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "00000000000000_CreateIdentitySchema.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:46:21.201Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EventosController.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\EventosController.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\EventosController.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\EventosController.cs",
-              "RelativeToolTip": "CasoPractico2\\Controllers\\EventosController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAA5wEgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:49:55.072Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Inscripcion.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\Inscripcion.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Models\\Inscripcion.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\Inscripcion.cs",
-              "RelativeToolTip": "CasoPractico2\\Models\\Inscripcion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:38:34.999Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Program.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Program.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Program.cs",
-              "RelativeToolTip": "CasoPractico2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Title": "20250421014216_SeedRoles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421014216_SeedRoles.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\20250421014216_SeedRoles.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421014216_SeedRoles.cs",
+              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\20250421014216_SeedRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:41:50.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Evento.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\Evento.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Models\\Evento.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\Evento.cs",
-              "RelativeToolTip": "CasoPractico2\\Models\\Evento.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:19:32.561Z",
+              "WhenOpened": "2025-04-21T01:42:16.705Z",
               "EditorCaption": ""
             },
             {
@@ -438,159 +467,443 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Edit.cshtml",
-              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Edit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T01:16:28.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CasoPractico2\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Evento.cs",
+              "RelativeToolTip": "CasoPractico2\\Models\\Evento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:19:37.054Z",
+              "WhenOpened": "2025-04-16T01:19:32.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Create.cshtml",
-              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Create.cshtml",
-              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Create.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T01:16:11.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Delete.cshtml",
-              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Delete.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T01:16:18.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Details.cshtml",
-              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Details.cshtml",
-              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Details.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T01:16:23.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAKQBAAAAAAAAAAAWwLQBAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwGYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T00:46:22.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CasoPractico2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAACFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T01:04:10.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "NoEmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
-              "RelativeToolTip": "CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:02:59.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\Categoria.cs",
-              "RelativeToolTip": "CasoPractico2\\Models\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:37:41.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "InscripcionesController.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\InscripcionesController.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\InscripcionesController.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\InscripcionesController.cs",
-              "RelativeToolTip": "CasoPractico2\\Controllers\\InscripcionesController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwEcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:51:04.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CasoPractico2\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "CasoPractico2\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T00:40:24.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250421013311_SeedRoles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421013311_SeedRoles.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\20250421013311_SeedRoles.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421013311_SeedRoles.cs",
+              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\20250421013311_SeedRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:33:11.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250421011848_SeedRoles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421011848_SeedRoles.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\20250421011848_SeedRoles.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421011848_SeedRoles.cs",
+              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\20250421011848_SeedRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:18:48.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250421011711_SeedRoles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421011711_SeedRoles.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\20250421011711_SeedRoles.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421011711_SeedRoles.cs",
+              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\20250421011711_SeedRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:17:11.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250421011502_SeedRoles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421011502_SeedRoles.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\20250421011502_SeedRoles.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421011502_SeedRoles.cs",
+              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\20250421011502_SeedRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:15:02.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250421010324_SeedRoles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421010324_SeedRoles.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\20250421010324_SeedRoles.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421010324_SeedRoles.cs",
+              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\20250421010324_SeedRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:03:24.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250421010119_SeedRoles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421010119_SeedRoles.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\20250421010119_SeedRoles.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250421010119_SeedRoles.cs",
+              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\20250421010119_SeedRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:01:19.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuarioViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\UsuarioViewModel.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Models\\UsuarioViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\UsuarioViewModel.cs",
+              "RelativeToolTip": "CasoPractico2\\Models\\UsuarioViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T00:56:19.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsuarioNombreDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\UsuarioNombreDTO.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Models\\UsuarioNombreDTO.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\UsuarioNombreDTO.cs",
+              "RelativeToolTip": "CasoPractico2\\Models\\UsuarioNombreDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T00:55:15.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioEditModal.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\UsuarioEditModal.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Models\\UsuarioEditModal.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\UsuarioEditModal.cs",
+              "RelativeToolTip": "CasoPractico2\\Models\\UsuarioEditModal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T00:53:10.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "CasoPractico2\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T00:51:15.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Areas\\Identity\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Areas\\Identity\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T00:47:29.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T00:47:28.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T00:47:24.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T00:47:15.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T00:35:28.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EventosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\EventosController.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\EventosController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\EventosController.cs",
+              "RelativeToolTip": "CasoPractico2\\Controllers\\EventosController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAA5wEgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T00:49:55.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "CasoPractico2\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T00:49:16.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T00:46:21.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Index.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Index.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:16:33.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Program.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Program.cs",
+              "RelativeToolTip": "CasoPractico2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T00:41:50.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250416011405_Modelos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
+              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T01:14:05.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Inscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Inscripcion.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Models\\Inscripcion.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Inscripcion.cs",
+              "RelativeToolTip": "CasoPractico2\\Models\\Inscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T00:38:34.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Edit.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:16:28.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CasoPractico2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T01:19:37.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Create.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Create.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:16:11.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Delete.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Delete.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:16:18.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Details.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Details.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:16:23.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:04:10.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NoEmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
+              "RelativeToolTip": "CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T01:02:59.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Categoria.cs",
+              "RelativeToolTip": "CasoPractico2\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T00:37:41.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "InscripcionesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\InscripcionesController.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\InscripcionesController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\InscripcionesController.cs",
+              "RelativeToolTip": "CasoPractico2\\Controllers\\InscripcionesController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwEcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T00:51:04.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "CasoPractico2\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\ProyectoMK\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "CasoPractico2\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:38:58.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T00:38:58.443Z"
             }
           ]
         },
@@ -598,6 +911,10 @@
           "DockedWidth": 200,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cdbdee54-b399-484b-b763-db2c3393d646}"
@@ -621,10 +938,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:21:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
