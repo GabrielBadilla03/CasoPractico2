@@ -38,10 +38,22 @@ namespace CasoPractico2.Controllers
                 .Include(e => e.Categoria)
                 .Include(e => e.Usuario)
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (evento == null)
             {
                 return NotFound();
             }
+
+            // Conteo de inscripciones para este evento
+            var inscripcionesCount = await _context.Inscripciones
+                .CountAsync(i => i.EventoId == evento.Id);
+
+            // Evaluar si el evento está lleno
+            bool eventoLleno = inscripcionesCount >= evento.CupoMaximo;
+
+            // Enviar datos a la vista usando ViewData
+            ViewData["InscripcionesCount"] = inscripcionesCount;
+            ViewData["EventoLleno"] = eventoLleno;
 
             return View(evento);
         }
@@ -55,8 +67,6 @@ namespace CasoPractico2.Controllers
         }
 
         // POST: Eventos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Titulo,Descripcion,CategoriaId,Fecha,Hora,DuracionMinutos,Ubicacion,CupoMaximo,FechaRegistro,UsuarioId")] Evento evento)
@@ -91,8 +101,6 @@ namespace CasoPractico2.Controllers
         }
 
         // POST: Eventos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Titulo,Descripcion,CategoriaId,Fecha,Hora,DuracionMinutos,Ubicacion,CupoMaximo,FechaRegistro,UsuarioId")] Evento evento)

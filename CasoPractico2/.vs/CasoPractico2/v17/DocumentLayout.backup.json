@@ -1,85 +1,133 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\",
+  "WorkspaceRootPath": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\views\\eventos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\views\\eventos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\data\\migrations\\20250416011405_modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\migrations\\20250416011405_modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\inscripciones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\inscripciones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\noemailsender\\noemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\noemailsender\\noemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\gabri\\source\\repos\\casopractico2\\casopractico2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\inscripciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\inscripciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\models\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\models\\usuarionombredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\usuarionombredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\models\\usuarioeditmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\usuarioeditmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\eventos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\eventos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\data\\migrations\\20250416011405_modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\migrations\\20250416011405_modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\noemailsender\\noemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\noemailsender\\noemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|c:\\users\\oagon\\desktop\\caso pr\u00E1ctico 2\\casopractico2\\casopractico2\\casopractico2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54537DB7-251E-48B7-AA41-1420855BE099}|CasoPractico2\\CasoPractico2.csproj|solutionrelative:casopractico2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -90,12 +138,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 214,
-          "SelectedChildIndex": 65,
+          "SelectedChildIndex": 64,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -326,123 +370,315 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Evento.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\Evento.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Models\\Evento.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\Evento.cs",
-              "RelativeToolTip": "CasoPractico2\\Models\\Evento.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CasoPractico2\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:19:32.561Z",
+              "WhenOpened": "2025-04-16T00:40:24.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20250416011405_Modelos.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
-              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAQwFIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:14:05.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "CasoPractico2\\Controllers\\CategoriasController.cs",
+              "DocumentIndex": 4,
+              "Title": "InscripcionesController.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\InscripcionesController.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\InscripcionesController.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\InscripcionesController.cs",
+              "RelativeToolTip": "CasoPractico2\\Controllers\\InscripcionesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:49:16.783Z",
+              "WhenOpened": "2025-04-16T00:51:04.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Index.cshtml",
-              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Index.cshtml",
-              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T01:16:33.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "00000000000000_CreateIdentitySchema.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:46:21.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EventosController.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\EventosController.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\EventosController.cs",
               "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\EventosController.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\EventosController.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\EventosController.cs",
               "RelativeToolTip": "CasoPractico2\\Controllers\\EventosController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAA5wD8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAALEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T00:49:55.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Inscripcion.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\Inscripcion.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Models\\Inscripcion.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\Inscripcion.cs",
-              "RelativeToolTip": "CasoPractico2\\Models\\Inscripcion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:38:34.999Z",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Details.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Details.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:16:23.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Inscripciones\\Details.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Inscripciones\\Details.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Inscripciones\\Details.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Inscripciones\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T23:26:14.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T00:46:21.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T01:26:27.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "CasoPractico2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAAAMMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:28:46.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Inscripciones\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Inscripciones\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Inscripciones\\Edit.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Inscripciones\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T01:04:28.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T23:37:45.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "CasoPractico2\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAAKcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:34:08.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Evento.cs",
+              "RelativeToolTip": "CasoPractico2\\Models\\Evento.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T01:19:32.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Usuarios\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Usuarios\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T23:37:34.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Usuarios\\Details.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Usuarios\\Details.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Usuarios\\Details.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Usuarios\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T23:36:50.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Usuarios\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Usuarios\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Usuarios\\Delete.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Usuarios\\Delete.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T23:36:20.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "CasoPractico2\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:34:28.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsuarioViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\UsuarioViewModel.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Models\\UsuarioViewModel.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\UsuarioViewModel.cs",
+              "RelativeToolTip": "CasoPractico2\\Models\\UsuarioViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:33:07.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsuarioNombreDTO.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\UsuarioNombreDTO.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Models\\UsuarioNombreDTO.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\UsuarioNombreDTO.cs",
+              "RelativeToolTip": "CasoPractico2\\Models\\UsuarioNombreDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:32:16.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsuarioEditModal.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\UsuarioEditModal.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Models\\UsuarioEditModal.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\UsuarioEditModal.cs",
+              "RelativeToolTip": "CasoPractico2\\Models\\UsuarioEditModal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:31:44.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Inscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Inscripcion.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Models\\Inscripcion.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Inscripcion.cs",
+              "RelativeToolTip": "CasoPractico2\\Models\\Inscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T00:38:34.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Edit.cshtml",
               "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Edit.cshtml",
               "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Edit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-16T01:16:28.143Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Index.cshtml",
+              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Index.cshtml",
+              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:16:33.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 25,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "CasoPractico2\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T00:49:16.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CasoPractico2\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -450,147 +686,104 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 24,
+              "Title": "20250416011405_Modelos.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
+              "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
+              "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\20250416011405_Modelos.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T01:14:05.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Create.cshtml",
               "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Create.cshtml",
               "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Create.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T01:16:11.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T01:16:11.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 22,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Delete.cshtml",
               "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Delete.cshtml",
               "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Delete.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T01:16:18.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T01:16:18.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Details.cshtml",
-              "RelativeDocumentMoniker": "CasoPractico2\\Views\\Eventos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Eventos\\Details.cshtml",
-              "RelativeToolTip": "CasoPractico2\\Views\\Eventos\\Details.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T01:16:23.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "CasoPractico2\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeToolTip": "CasoPractico2\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AgIAAKQBAAAAAAAAAAAWwLQBAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:46:22.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T00:46:22.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CasoPractico2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CasoPractico2\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T01:04:10.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T01:04:10.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Program.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Program.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Program.cs",
-              "RelativeToolTip": "CasoPractico2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:41:50.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "NoEmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
               "RelativeDocumentMoniker": "CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
               "RelativeToolTip": "CasoPractico2\\NoEmailSender\\NoEmailSender.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:02:59.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T01:02:59.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 30,
               "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "CasoPractico2\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\Categoria.cs",
               "RelativeToolTip": "CasoPractico2\\Models\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:37:41.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T00:37:41.464Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "InscripcionesController.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\InscripcionesController.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Controllers\\InscripcionesController.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Controllers\\InscripcionesController.cs",
-              "RelativeToolTip": "CasoPractico2\\Controllers\\InscripcionesController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwEcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:51:04.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "CasoPractico2\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "CasoPractico2\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:40:24.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "CasoPractico2\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\CasoPractico2\\CasoPractico2\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\oagon\\Desktop\\caso pr\u00E1ctico 2\\CasoPractico2\\CasoPractico2\\CasoPractico2\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "CasoPractico2\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T00:38:58.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T00:38:58.443Z"
             }
           ]
         },
@@ -625,6 +818,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",

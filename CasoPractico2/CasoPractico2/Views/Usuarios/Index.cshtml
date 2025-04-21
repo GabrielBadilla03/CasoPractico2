@@ -1,0 +1,33 @@
+﻿@@model IEnumerable<UsuarioViewModel>
+
+    <h1>Usuarios</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre Completo</th>
+                <th>Nombre de Usuario</th>
+                <th>Email</th>
+                <th>Teléfono</th>
+                <th>Rol</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var usuario in Model)
+            {
+                <tr>
+                    <td>@usuario.NombreCompleto</td>
+                    <td>@usuario.UserName</td>
+                    <td>@usuario.Email</td>
+                    <td>@usuario.PhoneNumber</td>
+                    <td>@string.Join(", ", usuario.Roles)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@usuario.Id">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@usuario.Id">Detalles</a> |
+                        <a asp-action="Delete" asp-route-id="@usuario.Id">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
