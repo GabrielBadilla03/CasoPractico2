@@ -1,8 +1,55 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model List<Microsoft.AspNetCore.Identity.IdentityRole>
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@inject SignInManager<IdentityUser> SignInManager
+
+@{
+    ViewData["Title"] = "Gestión de Roles";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@if (User.Identity.IsAuthenticated)
+{
+    <h1>Roles Disponibles</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre del Rol</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rol in Model)
+            {
+                <tr>
+                    <td>@rol.Name</td>
+                    <td>
+                        <form asp-action="AsignarRol" method="post" style="display:inline">
+                            <input type="hidden" name="roleName" value="@rol.Name" />
+                            <button type="submit" class="btn btn-success">Asignar Rol</button>
+                        </form>
+
+                        <form asp-action="QuitarRol" method="post" style="display:inline">
+                            <input type="hidden" name="roleName" value="@rol.Name" />
+                            <button type="submit" class="btn btn-danger">Quitar Rol</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-danger">
+        No tenés permiso para acceder a esta vista.
+    </div>
+}
+
+<div>
+    En el programa se creo el apartado del home de los roles para que le profesor lo gestiones de manera mas facil, si un usuario tiene tanto Organizador como Administrador eventos filtrara por el rango mas alto,
+     se creo al vista Apis para que se hagan pruebas de las apis, en la vista eventos en details esta el listado de los usuarios inscritos en cada evento, como se filtra segun el rol muestra los asociados a cada rol
+      Organizador y si es Administrador siempre muestra todos
+
 </div>
+

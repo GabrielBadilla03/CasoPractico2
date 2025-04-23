@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<Microsoft.AspNetCore.Identity.IdentityUser> UserManager
+
+@model List<Microsoft.AspNetCore.Identity.IdentityUser>
+
+@{
+  ViewData["Title"] = "Lista de Usuarios";
+}
+
+<h1>Lista de Usuarios</h1>
+
+<table class="table table-bordered table-striped">
+  <thead>
+      <tr>
+          <th>UserName</th>
+          <th>Email</th>
+          <th>Phone Number</th>
+          <th>Roles</th> <!-- Nueva columna para mostrar los roles -->
+      </tr>
+  </thead>
+  <tbody>
+      @foreach (var user in Model)
+      {
+          var roles = await UserManager.GetRolesAsync(user); // Aquí obtenemos los roles
+
+          <tr>
+              <td>@user.UserName</td>
+              <td>@user.Email</td>
+              <td>@user.PhoneNumber</td>
+              <td>@Html.Raw(string.Join("<br />", roles))</td>
+          </tr>
+      }
+  </tbody>
+</table>
