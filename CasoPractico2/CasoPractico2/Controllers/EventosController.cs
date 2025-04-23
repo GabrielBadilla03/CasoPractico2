@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CasoPractico2.Data;
 using CasoPractico2.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CasoPractico2.Controllers
 {
+    [Authorize(Roles = "Administrador,Organizador")]
     public class EventosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -22,9 +24,24 @@ namespace CasoPractico2.Controllers
         // GET: Eventos
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Eventos.Include(e => e.Categoria).Include(e => e.Usuario);
-            return View(await applicationDbContext.ToListAsync());
+            IQueryable<Evento> eventosQuery = _context.Eventos
+                .Include(e => e.Categoria)
+                .Include(e => e.Usuario);
+
+            // Solo se filtra si NO es administrador
+            if (!User.IsInRole("Administrador") && User.IsInRole("Organizador"))
+            {
+                var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+                if (!string.IsNullOrEmpty(userId))
+                {
+                    eventosQuery = eventosQuery.Where(e => e.UsuarioId == userId);
+                }
+            }
+
+            var eventos = await eventosQuery.ToListAsync();
+            return View(eventos);
         }
+
 
         // GET: Eventos/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -38,10 +55,22 @@ namespace CasoPractico2.Controllers
                 .Include(e => e.Categoria)
                 .Include(e => e.Usuario)
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (evento == null)
             {
                 return NotFound();
             }
+
+            // Conteo de inscripciones para este evento
+            var inscripcionesCount = await _context.Inscripciones
+                .CountAsync(i => i.EventoId == evento.Id);
+
+            // Evaluar si el evento está lleno
+            bool eventoLleno = inscripcionesCount >= evento.CupoMaximo;
+
+            // Enviar datos a la vista usando ViewData
+            ViewData["InscripcionesCount"] = inscripcionesCount;
+            ViewData["EventoLleno"] = eventoLleno;
 
             return View(evento);
         }
@@ -88,6 +117,21 @@ namespace CasoPractico2.Controllers
                 UsuarioId = userId
             };
 
+            if (Fecha <= DateTime.Now)
+            {
+                ModelState.AddModelError("Fecha", "La fecha del evento debe ser en el futuro.");
+            }
+
+            if (DuracionMinutos <= 0)
+            {
+                ModelState.AddModelError("DuracionMinutos", "La duración debe ser mayor a 0.");
+            }
+
+            if (CupoMaximo <= 0)
+            {
+                ModelState.AddModelError("CupoMaximo", "El cupo máximo debe ser mayor a 0.");
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(evento);
@@ -98,7 +142,6 @@ namespace CasoPractico2.Controllers
             ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nombre", evento.CategoriaId);
             return View(evento);
         }
-
 
         // GET: Eventos/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -113,7 +156,6 @@ namespace CasoPractico2.Controllers
             {
                 return NotFound();
             }
-
             ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nombre", evento.CategoriaId);
             ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", evento.UsuarioId);
             return View(evento);

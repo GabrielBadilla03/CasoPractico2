@@ -1,31 +1,43 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using CasoPractico2.Data;
+using CasoPractico2.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using CasoPractico2.Data;
-using CasoPractico2.Models;
+
 
 namespace CasoPractico2.Controllers
 {
+    [Authorize(Roles = "Administrador,Usuario")]
     public class InscripcionesController : Controller
     {
         private readonly ApplicationDbContext _context;
-
-        public InscripcionesController(ApplicationDbContext context)
+        private readonly UserManager<IdentityUser> _userManager;
+        public InscripcionesController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
-        // GET: Inscripciones
-        public async Task<IActionResult> Index()
+        // GET: Inscripciones o Inscripciones?eventoId=5
+        public async Task<IActionResult> Index(int? eventoId)
         {
-            var applicationDbContext = _context.Inscripciones.Include(i => i.Evento).Include(i => i.Usuario);
-            return View(await applicationDbContext.ToListAsync());
+            IQueryable<Inscripcion> inscripciones = _context.Inscripciones
+            .Include(i => i.Evento)
+            .Include(i => i.Usuario);
+            if (eventoId != null)
+            {
+                inscripciones = inscripciones.Where(i => i.EventoId == eventoId);
+                ViewData["FiltradoPorEvento"] = true;
+                ViewData["TituloEvento"] = (await _context.Eventos.FindAsync(eventoId))?.Titulo;
+            }
+            else
+            {
+                ViewData["FiltradoPorEvento"] = false;
+            }
+            return View(await inscripciones.ToListAsync());
         }
-
         // GET: Inscripciones/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -33,43 +45,86 @@ namespace CasoPractico2.Controllers
             {
                 return NotFound();
             }
-
             var inscripcion = await _context.Inscripciones
-                .Include(i => i.Evento)
-                .Include(i => i.Usuario)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            .Include(i => i.Evento).Include(i => i.Usuario)
+            .FirstOrDefaultAsync(m => m.Id == id);
             if (inscripcion == null)
             {
                 return NotFound();
             }
-
             return View(inscripcion);
         }
-
         // GET: Inscripciones/Create
         public IActionResult Create()
         {
             ViewData["EventoId"] = new SelectList(_context.Eventos, "Id", "Titulo");
-            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id");
             return View();
         }
-
         // POST: Inscripciones/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,UsuarioId,EventoId,FechaInscripcion,Asistio")] Inscripcion inscripcion)
+        public async Task<IActionResult> Create(int eventoId)
         {
-            if (ModelState.IsValid)
+            // Validar que el evento exista
+            var evento = await _context.Eventos.FirstOrDefaultAsync(e => e.Id == eventoId);
+            if (evento == null)
             {
-                _context.Add(inscripcion);
-                await _context.SaveChangesAsync();
+                TempData["Error"] = "Evento no encontrado.";
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EventoId"] = new SelectList(_context.Eventos, "Id", "Titulo", inscripcion.EventoId);
-            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", inscripcion.UsuarioId);
-            return View(inscripcion);
+
+            // Validar que no se haya alcanzado el cupo
+            var cupoActual = await _context.Inscripciones.CountAsync(i => i.EventoId == eventoId);
+            if (cupoActual >= evento.CupoMaximo)
+            {
+                TempData["Error"] = "El evento ha alcanzado su cupo máximo.";
+                return RedirectToAction(nameof(Index));
+            }
+
+            // Obtener el usuario actual
+            var usuario = await _userManager.GetUserAsync(User);
+            if (usuario == null)
+            {
+                TempData["Error"] = "Usuario no autenticado.";
+                return RedirectToAction(nameof(Index));
+            }
+
+            // Validar que el usuario no esté inscrito a otro evento en la misma fecha
+            var eventosInscritos = await _context.Inscripciones
+                .Where(i => i.UsuarioId == usuario.Id)
+                .Include(i => i.Evento)
+                .ToListAsync();
+
+            foreach (var ins in eventosInscritos)
+            {
+                var inicioNuevo = evento.Fecha;
+                var finNuevo = evento.Fecha.AddMinutes(evento.DuracionMinutos);
+
+                var inicioExistente = ins.Evento.Fecha;
+                var finExistente = ins.Evento.Fecha.AddMinutes(ins.Evento.DuracionMinutos);
+
+                bool seSuperpone = inicioNuevo < finExistente && finNuevo > inicioExistente;
+                if (seSuperpone)
+                {
+                    TempData["Error"] = "Ya estás inscrito en otro evento que se superpone en horario.";
+                    return RedirectToAction(nameof(Index));
+                }
+            }
+
+            // Crear nueva inscripción
+            var inscripcion = new Inscripcion
+            {
+                UsuarioId = usuario.Id,
+                EventoId = eventoId,
+                FechaInscripcion = DateTime.Now,
+                Asistio = false
+            };
+
+            _context.Add(inscripcion);
+            await _context.SaveChangesAsync();
+
+            TempData["Success"] = "Inscripción realizada con éxito.";
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Inscripciones/Edit/5
@@ -80,19 +135,27 @@ namespace CasoPractico2.Controllers
                 return NotFound();
             }
 
-            var inscripcion = await _context.Inscripciones.FindAsync(id);
+            var inscripcion = await _context.Inscripciones
+                .Include(i => i.Evento)
+                .FirstOrDefaultAsync(i => i.Id == id);
+
             if (inscripcion == null)
             {
                 return NotFound();
             }
+
             ViewData["EventoId"] = new SelectList(_context.Eventos, "Id", "Titulo", inscripcion.EventoId);
-            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", inscripcion.UsuarioId);
+
+            // Solo el usuario relacionado con la inscripción
+            var usuarioRelacionado = await _context.Users
+                .Where(u => u.Id == inscripcion.UsuarioId)
+                .ToListAsync();
+
+            ViewData["UsuarioId"] = new SelectList(usuarioRelacionado, "Id", "UserName", inscripcion.UsuarioId);
+
             return View(inscripcion);
         }
-
         // POST: Inscripciones/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,UsuarioId,EventoId,FechaInscripcion,Asistio")] Inscripcion inscripcion)
@@ -101,7 +164,6 @@ namespace CasoPractico2.Controllers
             {
                 return NotFound();
             }
-
             if (ModelState.IsValid)
             {
                 try
@@ -126,7 +188,6 @@ namespace CasoPractico2.Controllers
             ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", inscripcion.UsuarioId);
             return View(inscripcion);
         }
-
         // GET: Inscripciones/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -134,19 +195,16 @@ namespace CasoPractico2.Controllers
             {
                 return NotFound();
             }
-
             var inscripcion = await _context.Inscripciones
-                .Include(i => i.Evento)
-                .Include(i => i.Usuario)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            .Include(i => i.Evento)
+            .Include(i => i.Usuario)
+            .FirstOrDefaultAsync(m => m.Id == id);
             if (inscripcion == null)
             {
                 return NotFound();
             }
-
             return View(inscripcion);
         }
-
         // POST: Inscripciones/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -157,11 +215,9 @@ namespace CasoPractico2.Controllers
             {
                 _context.Inscripciones.Remove(inscripcion);
             }
-
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
         private bool InscripcionExists(int id)
         {
             return _context.Inscripciones.Any(e => e.Id == id);

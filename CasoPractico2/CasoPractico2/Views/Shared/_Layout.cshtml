@@ -19,21 +19,34 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Categorias" asp-action="Index">Categorias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Eventos" asp-action="Index">Eventos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Inscripciones" asp-action="Index">Inscripciones</a>
-                        </li>
                         @if (User.IsInRole("Administrador"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Listado de Usuarios</a>
+                                <a class="nav-link text-dark" asp-controller="Categorias" asp-action="Index">Categorias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Dashboard" asp-action="Index">Dashboard</a>
                             </li>
                         }
+                        @if (User.IsInRole("Administrador") || User.IsInRole("Organizador"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Eventos" asp-action="Index">Eventos</a>
+                            </li>
+                            
+                        }
+                        @if (User.IsInRole("Usuario") || User.IsInRole("Administrador"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Inscripciones" asp-action="Create">Inscribirse</a>
+                            </li>
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="https://localhost:7083/swagger/index.html" target="_blank">Apis</a>
+                        </li>
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
@@ -45,7 +58,6 @@
             @RenderBody()
         </main>
     </div>
-
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2025 - CasoPractico2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>

@@ -1,10 +1,12 @@
 ﻿using CasoPractico2.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace CasoPractico2.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class DashboardController : Controller
     {
         private readonly ApplicationDbContext _context;

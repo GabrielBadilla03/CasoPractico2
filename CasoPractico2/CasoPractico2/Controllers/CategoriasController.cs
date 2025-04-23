@@ -7,16 +7,21 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CasoPractico2.Data;
 using CasoPractico2.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CasoPractico2.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class CategoriasController : Controller
     {
+        private readonly UserManager<IdentityUser> _userManager;
         private readonly ApplicationDbContext _context;
 
-        public CategoriasController(ApplicationDbContext context)
+        public CategoriasController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Categorias
@@ -57,17 +62,30 @@ namespace CasoPractico2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nombre,Descripcion,Estado,FechaRegistro,UsuarioId")] Categoria categoria)
+        public async Task<IActionResult> Create(string Nombre, string Descripcion, bool Estado)
         {
             if (ModelState.IsValid)
             {
+                var userId = _userManager.GetUserId(User); // O la forma en que obtienes el ID del usuario autenticado
+
+                var categoria = new Categoria
+                {
+                    Nombre = Nombre,
+                    Descripcion = Descripcion,
+                    Estado = Estado,
+                    FechaRegistro = DateTime.Now,
+                    UsuarioId = userId
+                };
+
                 _context.Add(categoria);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", categoria.UsuarioId);
-            return View(categoria);
+
+            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id");
+            return View();
         }
+
 
         // GET: Categorias/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -82,7 +100,7 @@ namespace CasoPractico2.Controllers
             {
                 return NotFound();
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "Id", categoria.UsuarioId);
+            ViewData["UsuarioId"] = new SelectList(_context.Users, "Id", "UserName", categoria.UsuarioId);
             return View(categoria);
         }
 
